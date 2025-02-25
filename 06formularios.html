@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formiularios en HTML</title>
+</head>
+<body>
+  <center><h1>Formularios en HTML</h1></center>
+    <form action="06formularios.html" method="get" enctype="multipart/form-data">
+      <center><table border width="60%">
+        <tr>
+          <td>
+            <h3>campo de texto</h3>
+          </td>
+          <td>
+            <input type="text" name="nombre" id="nombre" value="" 
+            placeholder="Escribe tu nombre" maxlength="30">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <h3>contraseña</h3>
+          </td>
+          <td>
+            <input type="password" name="password" id="nombre" value="" 
+            placeholder="Escribe tu contraseña" maxlength="30">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <h3>casilla de veerificacion</h3>
+          </td>
+          <td>
+            <input type="checkbox" name="check" id="check" value="" checked>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <h3>Boton de opcion</h3>
+          </td>
+          <td>
+            <input type="radio" name="colores" id="colores" value="" ><br>
+            <input type="radio" name="colores" id="colores" value="" ><br>
+            <input type="radio" name="colores" id="colores" value="" checked>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <h3>campo oculto</h3>
+          </td>
+          <td>
+            <input type="hidden" name="culto" id="culto" value="HTML" >
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <h3>boton enviar</h3>
+          </td>
+          <td>
+            <input type="submit" name="enviar"  value="Enviar" >
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <h3>boton reset</h3>
+          </td>
+          <td>
+            <input type="reset" name="reset" id="nombre" value="Borrar" >
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <h3>area de texto</h3>
+          </td>
+          <td>
+            <textarea name="area" id="" cols="30" rows="10"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <h3>lista desplegable</h3>
+          </td>
+          <td>
+            <select name="Equipos" id="equipos">
+              <option value="America" selected>America</option>
+              <option value="Tigres">Tigres</option>
+              <option value="chivas">chivas</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <h3>fieldsed</h3>
+          </td>
+          <td>
+            <fieldset>
+              <legend>Datos</legend>
+              <label for="">Nombre</label>
+              <input type="text" required>
+            </fieldset>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <h3>data list</h3>
+          </td>
+          <td>
+            <input type="text" list="equiposs">
+            <datalist id="equiposs">
+            <option value="AMERICA"></option>
+            <option value="TIGRES"></option>
+            <option value="CHIVAS"></option>
+          </datalist>
+          </td>
+        </tr>
+        <tr>
+          <td>campo numerico</td>
+          <td>
+            <input type="number">
+          </td>
+        </tr>
+        <tr>
+          <td>BARRA DE PROGRESO</td>
+          <td>
+            <progress></progress>
+          </td>
+        </tr>
+        <tr>
+          <td>campo busqueda</td>
+          <td>
+            <input type="search">
+          </td>
+        </tr>
+        <tr>
+          <td>campo fecha y hora</td>
+          <td>
+            <input type="datetime">
+          </td>
+        </tr>
+        <tr>
+          <td>campo hora</td>
+          <td>
+            <input type="time">
+          </td>
+        </tr>
+        <tr>
+          <tr>
+            <td>campo fecha</td>
+            <td>
+              <input type="date">
+            </td>
+        <tr>
+          <td>campo mes</td>
+          <td>
+            <input type="month">
+          </td>
+        </tr>
+        <tr>
+          <td>campo Semana</td>
+          <td>
+            <input type="week">
+          </td>
+        </tr>
+        <tr>
+          <td>campo generico</td>
+          <td>
+            <button>HOLA</button>
+          </td>
+        </tr>
+        <tr>
+          <td>campo Telefono
+          </td>
+          <td>
+            <input type="tel">
+          </td>
+        </tr>
+        <tr>
+          <td>campo Email</td>
+          <td>
+            <input type="email">
+          </td>
+        </tr>
+        <tr>
+          <td>campo archivo</td>
+          <td>
+            <input type="file">
+          </td>
+        </tr>
+        <tr>
+          <td>campo URL</td>
+          <td>
+            <input type="url">
+          </td>
+        </tr>
+        <tr>
+          <td>campo rango</td>
+          <td>
+            <input type="range" min="0" max="100" value="30">
+          </td>
+        </tr>
+      </tr>
+      <td>campo meter</td>
+      <td>
+        <meter value="20" max="100" ></meter>
+      </td>
+    </tr>
+      </tr>
+      <td>campo color</td>
+      <td>
+        <input type="color">
+      </td>
+    </tr>
+      </table>
+    </form></center>
+</body>
+</html>
