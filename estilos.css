@@ -4,20 +4,19 @@
 
 }
 body{
-    background: silver;
+    background: rgb(253, 253, 253);
 }
 a{
     display: block;
-    background: black;
-    color: white;
+    color: blue;
     font-size: 20px;
     text-align: center;
     width: 300px;
 padding: 5px;
 text-decoration: none;
 margin: 10px;
-border: 2px solid rgb(178, 31, 214);
-border-radius: 5px;
+background: rgb(205, 195, 195);
+
 box-shadow: 0 0 10px black;
 
 }
